@@ -1,0 +1,32 @@
+{
+  "name": "react-aldo-cdm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev-server | npm run dev-client",
+    "dev-server": "nodemon ./app/server.js localhost 3000",
+    "dev-client": "webpack-dev-server --hot --port 5000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "moment": "^2.18.1",
+    "nodemon": "^1.11.0",
+    "oauth": "^0.9.15",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-fetch": "0.0.9",
+    "react-redux": "^5.0.4",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "twitter-text": "^1.14.3",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2",
+    "whatwg-fetch": "^2.0.3"
+  }
+}
